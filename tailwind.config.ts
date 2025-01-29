@@ -35,7 +35,7 @@ export default {
         },
       },
       backgroundImage: {
-        pattern: "url('/images/body-bg-pattern.pngs')",
+        pattern: "url('/images/body-bg-pattern.png')",
         hero: "url('/images/hero/bg.png')",
         menu: "url('/images/menu/bg.png')",
         testimonial: "url('/images/testimonial/bg.png')",

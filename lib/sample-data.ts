@@ -6,6 +6,14 @@ import {
   FaDiscord,
 } from "react-icons/fa";
 
+import {
+  RiFacebookFill,
+  RiInstagramLine,
+  RiTwitterXFill,
+  RiYoutubeLine,
+  RiDiscordLine,
+} from "react-icons/ri";
+
 import AboutImg from "@/public/images/about/plate.png";
 import ModelWhiteImg from "@/public/images/model-white.png";
 import ModelBlackImg from "@/public/images/model-black.png";
@@ -19,7 +27,7 @@ import Avatar1 from "@/public/images/testimonial/avatar1.png";
 import Avatar2 from "@/public/images/testimonial/avatar2.png";
 import Avatar3 from "@/public/images/testimonial/avatar3.png";
 
-export const navData = [
+export const navLinks = [
   { href: "/", label: "home" },
   { href: "/", label: "about" },
   { href: "/", label: "menu" },
@@ -29,20 +37,12 @@ export const navData = [
   { href: "/", label: "contact" },
 ];
 
-export const heroData = {
-  pretitle: "Nothing brings together like",
-  title: "Bistro Cafe",
-  subtitle:
-    "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. ",
-  btnText: "Find out more",
-};
-
-export const socialData = [
-  { href: "/", icon: FaYoutube },
-  { href: "/", icon: FaFacebookF },
-  { href: "/", icon: FaInstagram },
-  { href: "/", icon: FaPinterestP },
-  { href: "/", icon: FaDiscord },
+export const socialLinks = [
+  { label: "Facebook", href: "https://facebook.com/", icon: RiFacebookFill },
+  { label: "Instagram", href: "https://instagram.com/", icon: RiInstagramLine },
+  { label: "Twitter X", href: "https://x.com/", icon: RiTwitterXFill },
+  { label: "Youtube", href: "https://youtube.com/", icon: RiYoutubeLine },
+  { label: "Discord", href: "https://discord.com/", icon: RiDiscordLine },
 ];
 
 export const aboutData = {
