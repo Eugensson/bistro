@@ -14,7 +14,6 @@ import {
   RiDiscordLine,
 } from "react-icons/ri";
 
-import AboutImg from "@/public/images/about/plate.png";
 import ModelWhiteImg from "@/public/images/model-white.png";
 import ModelBlackImg from "@/public/images/model-black.png";
 import MenuImg1 from "@/public/images/menu/1.png";
@@ -44,15 +43,6 @@ export const socialLinks = [
   { label: "Youtube", href: "https://youtube.com/", icon: RiYoutubeLine },
   { label: "Discord", href: "https://discord.com/", icon: RiDiscordLine },
 ];
-
-export const aboutData = {
-  pretitle: "our story",
-  title: "who we are",
-  subtitle:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet consequatur, quasi minima molestiae ex exercitationem culpa quisquam architecto quaerat, iusto dolores labore, sapiente magni rem commodi aperiam ad dolorem neque ducimus. Placeat vel non quod quis pariatur a aperiam, aliquam adipisci voluptatum voluptatem sit cupiditate dolore natus beatae earum omnis.",
-  btnText: "find out more",
-  image: AboutImg,
-};
 
 export const menuData = {
   title: "delicious flavour of autumn",
