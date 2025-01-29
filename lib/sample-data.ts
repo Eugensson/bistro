@@ -14,7 +14,6 @@ import {
   RiDiscordLine,
 } from "react-icons/ri";
 
-import ModelWhiteImg from "@/public/images/model-white.png";
 import ModelBlackImg from "@/public/images/model-black.png";
 import MenuImg1 from "@/public/images/menu/1.png";
 import MenuImg2 from "@/public/images/menu/2.png";
@@ -73,34 +72,29 @@ export const menuItems = [
   },
 ];
 
-export const testimonialData = {
-  title: "what client's say ",
-  subtitle: "1500+ statisfied clients",
-  modelImg: ModelWhiteImg,
-  slider: [
-    {
-      message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
-      image: Avatar1,
-      name: "Rick Thompson",
-      occupation: "CEO of Delightful",
-    },
-    {
-      message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
-      image: Avatar2,
-      name: "John Doe",
-      occupation: "CEO of Delightful",
-    },
-    {
-      message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
-      image: Avatar3,
-      name: "Henry A.",
-      occupation: "CEO of Delightful",
-    },
-  ],
-};
+export const testimonialList = [
+  {
+    message:
+      "This café always has a pleasant atmosphere and delicious dishes! The coffee here is simply incredible, and the desserts are always fresh. The service is top-notch, I highly recommend it to everyone!",
+    image: Avatar1,
+    name: "Rick Thompson",
+    occupation: "Photographer",
+  },
+  {
+    message:
+      "Every time I visit, I can't help but enjoy the wonderful dishes. I'll definitely come back, as it's always delicious and cozy here. I also love the interior design!",
+    image: Avatar2,
+    name: "Adam Fernandez",
+    occupation: "CEO of Delightful",
+  },
+  {
+    message:
+      "I've visited this café multiple times, and each time I am impressed by the service quality. It's a great place to spend time with friends or for solo work. Highly recommend it!",
+    image: Avatar3,
+    name: "Frank Jackson",
+    occupation: "Creative Designer",
+  },
+];
 
 export const reservationData = {
   title: "booking form",

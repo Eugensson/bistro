@@ -80,7 +80,10 @@ export const Header = () => {
             />
           </motion.div>
 
-          <motion.div variants={fadeIn("down", "tween", 1.2, 1.4)}>
+          <motion.div
+            variants={fadeIn("down", "tween", 1.2, 1.4)}
+            className="order-1 lg:order-none lg:ml-[11rem]"
+          >
             <Link href="/">
               <Image
                 src={LogoWhite}
