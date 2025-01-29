@@ -20,8 +20,6 @@ import MenuImg1 from "@/public/images/menu/1.png";
 import MenuImg2 from "@/public/images/menu/2.png";
 import MenuImg3 from "@/public/images/menu/3.png";
 import MenuImg4 from "@/public/images/menu/4.png";
-import SignatureImg from "@/public/images/team/signature.png";
-import ChefImg from "@/public/images/team/chef.png";
 import Avatar1 from "@/public/images/testimonial/avatar1.png";
 import Avatar2 from "@/public/images/testimonial/avatar2.png";
 import Avatar3 from "@/public/images/testimonial/avatar3.png";
@@ -74,17 +72,6 @@ export const menuItems = [
       "A spicy burger with hot jalapeños, salsa sauce, a juicy patty, and mozzarella cheese.",
   },
 ];
-
-export const teamData = {
-  pretitle: "our team",
-  title: "meet our chef",
-  sub1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci repudiandae enim ratione corrupti voluptatum suscipit distinctio dolor.",
-  sub2: "Sequi exercitationem quae deserunt reiciendis nesciunt perferendis atque quisquam, odit facere! Minima esse reiciendis, magnam fugiat totam maxime consequatur perspiciatis voluptas consequuntur.",
-  name: "sara peter",
-  occupation: "executive chef",
-  signatureImg: SignatureImg,
-  chefImg: ChefImg,
-};
 
 export const testimonialData = {
   title: "what client's say ",
