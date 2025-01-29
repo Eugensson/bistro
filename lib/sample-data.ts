@@ -44,38 +44,36 @@ export const socialLinks = [
   { label: "Discord", href: "https://discord.com/", icon: RiDiscordLine },
 ];
 
-export const menuData = {
-  title: "delicious flavour of autumn",
-  subtitle: "view all menu for tasty meal today",
-  modelImg: ModelWhiteImg,
-  btnText: "view complete menu",
-  menuItems: [
-    {
-      image: MenuImg1,
-      name: "Chocolate Cake",
-      price: "$7.99",
-      description: "Class aptent taciti ciosqu litora torquent per",
-    },
-    {
-      image: MenuImg2,
-      name: "Veggie Burger",
-      price: "$9.49",
-      description: "Class aptent taciti ciosqu litora torquent per",
-    },
-    {
-      image: MenuImg3,
-      name: "King Burger",
-      price: "$8.50",
-      description: "Class aptent taciti ciosqu litora torquent per",
-    },
-    {
-      image: MenuImg4,
-      name: "Mexican Burger",
-      price: "$9.99",
-      description: "Class aptent taciti ciosqu litora torquent per",
-    },
-  ],
-};
+export const menuItems = [
+  {
+    image: MenuImg1,
+    title: "Chocolate Cake",
+    price: "$7.99",
+    description:
+      "A tender chocolate sponge soaked in cocoa cream, topped with glaze and grated dark chocolate.",
+  },
+  {
+    image: MenuImg2,
+    title: "Veggie Burger",
+    price: "$9.49",
+    description:
+      "A juicy veggie patty with spinach and chickpeas, served in a soft bun with avocado sauce.",
+  },
+  {
+    image: MenuImg3,
+    title: "King Burger",
+    price: "$8.50",
+    description:
+      "A fluffy bun with a juicy beef patty, cheddar cheese, caramelized onions, and signature sauce.",
+  },
+  {
+    image: MenuImg4,
+    title: "Mexican Burger",
+    price: "$9.99",
+    description:
+      "A spicy burger with hot jalapeños, salsa sauce, a juicy patty, and mozzarella cheese.",
+  },
+];
 
 export const teamData = {
   pretitle: "our team",

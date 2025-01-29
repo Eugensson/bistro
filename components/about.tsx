@@ -30,7 +30,7 @@ export const About = () => {
               work, we create unique solutions for our clients. Our mission is
               to help people achieve their goals through high-quality products
               and services. For us, every project is an opportunity to make a
-              meaningful impact, leaving a positive mark on society.і
+              meaningful impact, leaving a positive mark on society.
             </p>
             <button type="button" className="mx-auto lg:mx-0 btn capitalize">
               find out more
