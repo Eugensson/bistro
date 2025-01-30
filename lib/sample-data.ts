@@ -14,7 +14,6 @@ import {
   RiDiscordLine,
 } from "react-icons/ri";
 
-import ModelBlackImg from "@/public/images/model-black.png";
 import MenuImg1 from "@/public/images/menu/1.png";
 import MenuImg2 from "@/public/images/menu/2.png";
 import MenuImg3 from "@/public/images/menu/3.png";
@@ -95,14 +94,6 @@ export const testimonialList = [
     occupation: "Creative Designer",
   },
 ];
-
-export const reservationData = {
-  title: "booking form",
-  subtitle:
-    "Call (800) 123-4567 from 5AM - 11PM daily, or book online with OpenTable.Reservations required for parties of 6 or more.",
-  modelImg: ModelBlackImg,
-  btnText: "make a reservation",
-};
 
 export const newsletterData = {
   title: "join our newsletter",

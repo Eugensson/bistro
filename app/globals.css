@@ -47,15 +47,33 @@
   .input {
     @apply h-[56px] w-[316px] outline-none pl-[30px] rounded-full border-2 border-gray-200 font-secondary font-semibold text-base text-dark placeholder:text-dark;
   }
+}
 
-  .carousel.carousel-slider .control-arrow {
-    @apply bg-transparent size-12 border-2 border-[#fe7634] rounded-full t-[30px] flex justify-center items-center;
-  }
+.carousel.carousel-slider .control-arrow {
+  background-color: transparent;
+  height: 48px;
+  width: 48px;
+  border: 2px solid #fe7634;
+  border-radius: 100%;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .carousel .control-prev.control-arrow:before,
-  .carousel .control-next.control-arrow:before {
-    @apply border-none size-6 bg-transparent;
-  }
+.carousel .control-prev.control-arrow:before,
+.carousel .control-next.control-arrow:before {
+  border: none;
+  width: 24px;
+  height: 24px;
+}
+
+.carousel .control-prev.control-arrow:before {
+  background: url("/images/testimonial/arrow-left.svg") no-repeat;
+}
+
+.carousel .control-next.control-arrow:before {
+  background: url("/images/testimonial/arrow-right.svg") no-repeat;
 }
 
 .react-time-picker__wrapper {
